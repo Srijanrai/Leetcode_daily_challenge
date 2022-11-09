@@ -1,3 +1,4 @@
+ //Online_Stock_Span.cpp
 class StockSpanner {
 public:
     stack<pair<int,int>>s;
@@ -10,7 +11,7 @@ public:
        
         while(s.size() > 0 && s.top().first <= price)
         {
-            c+= s.top().second; 
+           c+= s.top().second; 
             s.pop() ; 
         }
         s.push({price,c});
