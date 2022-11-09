@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  //Online_Stock_Span.cpp
 class StockSpanner {
 public:
