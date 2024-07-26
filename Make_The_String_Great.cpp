@@ -2,8 +2,10 @@ string makeGood(string s) {
         int f = 0 ; 
         int n = s.size();
         string r = "" ;
+
         while(1)
         {
+            
             r = "" ; f=0;
             for(int i = 0 ; i < n; i++)
             {
